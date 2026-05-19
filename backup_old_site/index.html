@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Aditya Kumar — DevOps Architect with 9+ years experience in cloud-native platforms, Kubernetes, CI/CD, and enterprise infrastructure." />
+<title>Aditya Kumar · DevOps Architect</title>
+<link rel="stylesheet" href="css/style.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚙️</text></svg>" />
+</head>
+<body>
+
+<!-- ░░ LOADER ░░ -->
+<div id="loader">
+  <div class="loader-pct">0%</div>
+  <div class="loader-bar-wrap"><div class="loader-bar"></div></div>
+  <div class="loader-text">Initializing systems...</div>
+</div>
+
+<!-- ░░ CURSOR ░░ -->
+<div class="cursor"></div>
+<div class="cursor-trail"></div>
+
+<!-- ░░ WEBGL CANVAS ░░ -->
+<canvas id="webgl-canvas"></canvas>
+
+<!-- ░░ NAV ░░ -->
+<nav>
+  <div class="nav-logo">
+    <span class="nav-logo-dot"></span>
+    AK.devops
+  </div>
+  <ul class="nav-links">
+    <li><a href="#about"       data-num="01">About</a></li>
+    <li><a href="#skills"      data-num="02">Skills</a></li>
+    <li><a href="#experience"  data-num="03">Experience</a></li>
+    <li><a href="#achievements" data-num="04">Impact</a></li>
+    <li><a href="#contact"     data-num="05">Contact</a></li>
+  </ul>
+  <a href="mailto:aditya307kumar@gmail.com" class="nav-hire">Hire Me</a>
+</nav>
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<!--  HERO                                     -->
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<section id="hero">
+  <div class="hero-grid">
+
+    <!-- Left: text -->
+    <div class="hero-content">
+      <div class="hero-eyebrow">DevOps &amp; Platform Engineering</div>
+      <h1 class="hero-name">
+        <span class="line1">Aditya</span>
+        <span class="line2 glitch" data-text="KUMAR">KUMAR</span>
+      </h1>
+      <p class="hero-subtitle">
+        DevOps Architect
+        <span class="hero-badge">GE Healthcare</span>
+        <span class="hero-badge">9+ Years</span>
+        <span class="hero-badge">Multi-Cloud</span>
+      </p>
+      <div class="hero-btns">
+        <a href="#experience" class="btn btn-glow">
+          View Work <span class="btn-arrow">→</span>
+        </a>
+        <a href="#contact" class="btn btn-ghost">
+          Let's Connect <span class="btn-arrow">→</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Right: terminal -->
+    <div class="terminal">
+      <div class="terminal-bar">
+        <span class="t-dot red"></span>
+        <span class="t-dot yellow"></span>
+        <span class="t-dot green"></span>
+        <span class="terminal-title">aditya@platform:~</span>
+      </div>
+      <div class="terminal-body"></div>
+    </div>
+  </div>
+
+  <!-- Floating stat chips -->
+  <div class="hero-stats-float">
+    <div class="stat-chip">
+      <div class="stat-n" data-count="9">0</div>
+      <div class="stat-l">Years Exp.</div>
+    </div>
+    <div class="stat-chip">
+      <div class="stat-n" data-count="10">0</div>
+      <div class="stat-l">Teams Enabled</div>
+    </div>
+    <div class="stat-chip">
+      <div class="stat-n">30<span style="font-size:1.5rem">%</span></div>
+      <div class="stat-l">Cycle Reduction</div>
+    </div>
+    <div class="stat-chip">
+      <div class="stat-n" data-count="3">0</div>
+      <div class="stat-l">Certifications</div>
+    </div>
+  </div>
+
+  <!-- Scroll hint -->
+  <div class="scroll-indicator">
+    <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+    <span class="scroll-label">Scroll</span>
+  </div>
+</section>
+
+<!-- ░░ MARQUEE ░░ -->
+<div class="marquee-wrap">
+  <div class="marquee-track">
+    <span class="marquee-item">GitLab CI/CD</span>
+    <span class="marquee-item">Kubernetes</span>
+    <span class="marquee-item">Terraform</span>
+    <span class="marquee-item">AWS</span>
+    <span class="marquee-item">Docker</span>
+    <span class="marquee-item">GitOps</span>
+    <span class="marquee-item">Platform Engineering</span>
+    <span class="marquee-item">Helm</span>
+    <span class="marquee-item">Ansible</span>
+    <span class="marquee-item">Istio</span>
+    <span class="marquee-item">ELK Stack</span>
+    <span class="marquee-item">Blue-Green Deploy</span>
+    <!-- duplicate for infinite loop -->
+    <span class="marquee-item">GitLab CI/CD</span>
+    <span class="marquee-item">Kubernetes</span>
+    <span class="marquee-item">Terraform</span>
+    <span class="marquee-item">AWS</span>
+    <span class="marquee-item">Docker</span>
+    <span class="marquee-item">GitOps</span>
+    <span class="marquee-item">Platform Engineering</span>
+    <span class="marquee-item">Helm</span>
+    <span class="marquee-item">Ansible</span>
+    <span class="marquee-item">Istio</span>
+    <span class="marquee-item">ELK Stack</span>
+    <span class="marquee-item">Blue-Green Deploy</span>
+  </div>
+</div>
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<!--  ABOUT                                    -->
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<section id="about">
+  <div class="section-wrap">
+    <div class="about-layout">
+
+      <!-- Orbit visual -->
+      <div class="about-visual reveal-left">
+        <div class="orbit-system">
+          <!-- Rings -->
+          <div class="orbit-ring ring-1"></div>
+          <div class="orbit-ring ring-2"></div>
+          <div class="orbit-ring ring-3"></div>
+          <!-- Center -->
+          <div class="orbit-center">
+            <div class="orbit-center-n">9+</div>
+            <div class="orbit-center-l">Years in<br>DevOps</div>
+          </div>
+          <!-- Nodes on ring-1 -->
+          <div style="position:absolute; width:100%; height:100%; animation: spin 12s linear infinite;">
+            <div class="orbit-node" style="top:calc(50% - 110px); left:calc(50% - 23px);">☁️</div>
+          </div>
+          <div style="position:absolute; width:100%; height:100%; animation: spin 12s linear infinite reverse;">
+            <div class="orbit-node" style="top:calc(50% + 65px); left:calc(50% - 23px);">⎈</div>
+          </div>
+          <!-- Nodes on ring-2 -->
+          <div style="position:absolute; width:100%; height:100%; animation: spin 20s linear infinite;">
+            <div class="orbit-node" style="top:calc(50% - 165px); left:calc(50% - 23px);">🔄</div>
+          </div>
+          <div style="position:absolute; width:100%; height:100%; animation: spin 20s linear infinite reverse;">
+            <div class="orbit-node" style="top:calc(50% + 120px); left:calc(50% - 23px);">🏗️</div>
+          </div>
+          <!-- Nodes on ring-3 -->
+          <div style="position:absolute; width:100%; height:100%; animation: spin 30s linear infinite;">
+            <div class="orbit-node" style="top:calc(50% - 220px); left:calc(50% - 23px);">📊</div>
+          </div>
+          <div style="position:absolute; width:100%; height:100%; animation: spin 30s linear infinite; animation-delay: -10s;">
+            <div class="orbit-node" style="top:calc(50% - 220px); left:calc(50% - 23px);">🚀</div>
+          </div>
+          <div style="position:absolute; width:100%; height:100%; animation: spin 30s linear infinite reverse; animation-delay: -5s;">
+            <div class="orbit-node" style="top:calc(50% - 220px); left:calc(50% - 23px);">🔀</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Text -->
+      <div class="about-text reveal-right">
+        <div class="section-num">01</div>
+        <h2 class="section-title">Platform<br /><span class="accent">Engineering</span><br /><span class="stroke">Leader</span></h2>
+        <p>
+          I'm a <strong>DevOps Architect at GE Healthcare</strong> with 9+ years of experience
+          driving large-scale DevOps transformation across enterprise environments.
+        </p>
+        <p>
+          My focus is building <strong>Internal Developer Platforms (IDP)</strong>, enabling
+          cross-functional teams, and transitioning organizations from fragmented DevOps to
+          centralized, platform-driven models that maximize developer productivity.
+        </p>
+        <p>
+          Deeply experienced in <strong>multi-cloud strategy (AWS, Azure, GCP)</strong>,
+          Kubernetes-based architectures, and GitOps workflows — with a track record of
+          reducing deployment cycle times by 30% and enabling 10+ teams.
+        </p>
+        <div class="cert-row">
+          <span class="cert-badge"><span class="icon">☁️</span> AWS Solutions Architect</span>
+          <span class="cert-badge"><span class="icon">⎈</span> Kubernetes Admin (CKA)</span>
+          <span class="cert-badge"><span class="icon">🏗️</span> Terraform Associate</span>
+          <span class="cert-badge"><span class="icon">🔧</span> Jenkins Engineer</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<!--  SKILLS                                   -->
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<section id="skills">
+  <div class="section-wrap">
+    <div class="section-header reveal">
+      <div class="section-num">02</div>
+      <h2 class="section-title">Tech<br /><span class="accent">Stack</span></h2>
+    </div>
+    <div class="skills-hexgrid">
+
+      <div class="hex-cell">
+        <div class="hex-cell-num">01</div>
+        <span class="hex-icon">☁️</span>
+        <div class="hex-title">Cloud Platforms</div>
+        <div class="hex-tags">
+          <span class="htag">AWS</span>
+          <span class="htag">Azure</span>
+          <span class="htag">GCP</span>
+          <span class="htag">SGCP</span>
+        </div>
+      </div>
+
+      <div class="hex-cell">
+        <div class="hex-cell-num">02</div>
+        <span class="hex-icon">⎈</span>
+        <div class="hex-title">Containerization</div>
+        <div class="hex-tags">
+          <span class="htag">Docker</span>
+          <span class="htag">Kubernetes</span>
+          <span class="htag">Helm</span>
+          <span class="htag">Istio</span>
+          <span class="htag">OpenShift</span>
+        </div>
+      </div>
+
+      <div class="hex-cell">
+        <div class="hex-cell-num">03</div>
+        <span class="hex-icon">🔄</span>
+        <div class="hex-title">CI/CD</div>
+        <div class="hex-tags">
+          <span class="htag">GitLab CI/CD</span>
+          <span class="htag">Jenkins</span>
+          <span class="htag">AWS CodePipeline</span>
+          <span class="htag">Bamboo</span>
+        </div>
+      </div>
+
+      <div class="hex-cell">
+        <div class="hex-cell-num">04</div>
+        <span class="hex-icon">🏗️</span>
+        <div class="hex-title">Infrastructure as Code</div>
+        <div class="hex-tags">
+          <span class="htag">Terraform</span>
+          <span class="htag">Ansible</span>
+          <span class="htag">Helm Charts</span>
+          <span class="htag">ConfigMaps</span>
+        </div>
+      </div>
+
+      <div class="hex-cell">
+        <div class="hex-cell-num">05</div>
+        <span class="hex-icon">📊</span>
+        <div class="hex-title">Monitoring & Logging</div>
+        <div class="hex-tags">
+          <span class="htag">ELK Stack</span>
+          <span class="htag">CloudWatch</span>
+          <span class="htag">SLA/SLO</span>
+        </div>
+      </div>
+
+      <div class="hex-cell">
+        <div class="hex-cell-num">06</div>
+        <span class="hex-icon">🔀</span>
+        <div class="hex-title">DevOps Practices</div>
+        <div class="hex-tags">
+          <span class="htag">GitOps</span>
+          <span class="htag">Blue-Green</span>
+          <span class="htag">Platform Eng.</span>
+          <span class="htag">Shift-Left</span>
+          <span class="htag">Agile</span>
+        </div>
+      </div>
+
+      <div class="hex-cell">
+        <div class="hex-cell-num">07</div>
+        <span class="hex-icon">💻</span>
+        <div class="hex-title">Scripting & Build</div>
+        <div class="hex-tags">
+          <span class="htag">Bash</span>
+          <span class="htag">YAML</span>
+          <span class="htag">Maven</span>
+          <span class="htag">NPM</span>
+          <span class="htag">Pip</span>
+          <span class="htag">Bitbake</span>
+        </div>
+      </div>
+
+      <div class="hex-cell">
+        <div class="hex-cell-num">08</div>
+        <span class="hex-icon">📦</span>
+        <div class="hex-title">Version Control</div>
+        <div class="hex-tags">
+          <span class="htag">Git</span>
+          <span class="htag">Bitbucket</span>
+          <span class="htag">GitLab</span>
+          <span class="htag">SVN</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<!--  EXPERIENCE                               -->
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<section id="experience">
+  <div class="section-wrap">
+    <div class="section-header reveal">
+      <div class="section-num">03</div>
+      <h2 class="section-title">Professional<br /><span class="accent">Experience</span></h2>
+    </div>
+    <div class="exp-layout">
+
+      <!-- Sidebar nav -->
+      <div class="exp-nav">
+        <div class="exp-nav-item active" data-target="exp1">
+          <div class="exp-nav-period">Sep 2023 — Present</div>
+          <div class="exp-nav-co">GE Healthcare</div>
+          <div class="exp-nav-role">DevOps Architect</div>
+        </div>
+        <div class="exp-nav-item" data-target="exp2">
+          <div class="exp-nav-period">Jul 2021 — Sep 2023</div>
+          <div class="exp-nav-co">Société Générale</div>
+          <div class="exp-nav-role">Specialist SE — DevOps</div>
+        </div>
+        <div class="exp-nav-item" data-target="exp3">
+          <div class="exp-nav-period">Feb 2020 — Jul 2021</div>
+          <div class="exp-nav-co">Infosys / Cisco</div>
+          <div class="exp-nav-role">Associate Consultant</div>
+        </div>
+        <div class="exp-nav-item" data-target="exp4">
+          <div class="exp-nav-period">Jul 2017 — Feb 2020</div>
+          <div class="exp-nav-co">TCS / AXAXL</div>
+          <div class="exp-nav-role">Systems Engineer</div>
+        </div>
+      </div>
+
+      <!-- Panels -->
+      <div class="exp-panels">
+
+        <div class="exp-panel active" id="exp1">
+          <div class="exp-panel-header">
+            <div class="exp-panel-role">DevOps Architect</div>
+            <div class="exp-panel-meta">
+              <div class="exp-panel-company">GE Healthcare — PCS Platforms</div>
+              <div class="exp-panel-period">Sep 2023 — Present</div>
+            </div>
+          </div>
+          <ul class="exp-points">
+            <li>Leading DevOps transformation across multiple platform teams, aligning with enterprise cloud and automation strategy.</li>
+            <li>Managing and mentoring a team of DevOps engineers supporting 10+ business units, driving standardization and delivery excellence.</li>
+            <li>Designed and implemented standardized CI/CD architecture using GitLab, with reusable templates for multi-team adoption.</li>
+            <li>Led migration from Jenkins to GitLab CI/CD, improving scalability, maintainability, and developer experience.</li>
+            <li>Reduced release cycle time by ~30% through pipeline optimization and automation.</li>
+            <li>Implemented Infrastructure as Code (Terraform) for consistent, scalable environment provisioning.</li>
+            <li>Defined SLA/SLOs and operational standards, improving reliability and incident response across teams.</li>
+            <li>Driving adoption of GitOps, shift-left, reusable DevOps frameworks and exploring AI integration in DevOps workflows.</li>
+          </ul>
+          <div class="exp-tags">
+            <span class="etag">GitLab CI/CD</span>
+            <span class="etag">Terraform</span>
+            <span class="etag">Kubernetes</span>
+            <span class="etag">GitOps</span>
+            <span class="etag">Platform Engineering</span>
+            <span class="etag">AWS</span>
+          </div>
+        </div>
+
+        <div class="exp-panel" id="exp2">
+          <div class="exp-panel-header">
+            <div class="exp-panel-role">Specialist SE — DevOps</div>
+            <div class="exp-panel-meta">
+              <div class="exp-panel-company">Société Générale — SOFA & CMF</div>
+              <div class="exp-panel-period">Jul 2021 — Sep 2023</div>
+            </div>
+          </div>
+          <ul class="exp-points">
+            <li>Led application migration from OpenShift to Docker Enterprise & Kubernetes platforms.</li>
+            <li>Designed Kubernetes deployment strategies using Helm, ConfigMaps, Secrets, and Ingress controllers.</li>
+            <li>Enabled onboarding of multiple teams to next-gen cloud (V2) and CI/CD ecosystems.</li>
+            <li>Implemented Blue-Green deployments, ensuring zero-downtime releases across environments.</li>
+            <li>Developed Ansible automation frameworks, significantly reducing manual effort across environments.</li>
+            <li>Maintained centralized Jenkins shared libraries, improving pipeline standardization across teams.</li>
+            <li>Acted as DevOps SME, supporting teams with CI/CD adoption and cloud migration strategies.</li>
+          </ul>
+          <div class="exp-tags">
+            <span class="etag">Kubernetes</span>
+            <span class="etag">Helm</span>
+            <span class="etag">Ansible</span>
+            <span class="etag">Jenkins</span>
+            <span class="etag">Blue-Green</span>
+            <span class="etag">Docker Enterprise</span>
+          </div>
+        </div>
+
+        <div class="exp-panel" id="exp3">
+          <div class="exp-panel-header">
+            <div class="exp-panel-role">Associate Consultant — DevOps</div>
+            <div class="exp-panel-meta">
+              <div class="exp-panel-company">Infosys Limited · Client: Cisco Systems</div>
+              <div class="exp-panel-period">Feb 2020 — Jul 2021</div>
+            </div>
+          </div>
+          <ul class="exp-points">
+            <li>Built and managed Kubernetes clusters across multiple environments (dev, staging, prod).</li>
+            <li>Implemented service mesh (Istio) for advanced traffic management and observability.</li>
+            <li>Developed end-to-end CI/CD pipelines using Jenkins and Bitbucket.</li>
+            <li>Automated infrastructure and deployments using Ansible and Helm charts.</li>
+            <li>Improved system reliability through backup & restore strategies in Kubernetes.</li>
+            <li>Contributed to custom RPM builds and automation pipelines for Cisco's platform.</li>
+          </ul>
+          <div class="exp-tags">
+            <span class="etag">Kubernetes</span>
+            <span class="etag">Istio</span>
+            <span class="etag">Jenkins</span>
+            <span class="etag">Ansible</span>
+            <span class="etag">Helm</span>
+            <span class="etag">Bitbucket</span>
+          </div>
+        </div>
+
+        <div class="exp-panel" id="exp4">
+          <div class="exp-panel-header">
+            <div class="exp-panel-role">Systems Engineer</div>
+            <div class="exp-panel-meta">
+              <div class="exp-panel-company">Tata Consultancy Services · Client: AXAXL Insurance</div>
+              <div class="exp-panel-period">Jul 2017 — Feb 2020</div>
+            </div>
+          </div>
+          <ul class="exp-points">
+            <li>Built and managed AWS infrastructure: EC2, S3, RDS, VPC, IAM, Lambda — full lifecycle ownership.</li>
+            <li>Implemented auto-scaling architecture behind load balancers for high-availability workloads.</li>
+            <li>Set up CloudWatch monitoring and alerting systems for proactive incident detection.</li>
+            <li>Managed CI/CD pipelines using Bamboo and Bitbucket for continuous delivery.</li>
+            <li>Implemented ELK Stack for centralized logging and real-time monitoring dashboards.</li>
+            <li>Enabled secure access control via IAM policies and roles across the organization.</li>
+          </ul>
+          <div class="exp-tags">
+            <span class="etag">AWS</span>
+            <span class="etag">EC2 / S3 / RDS</span>
+            <span class="etag">CloudWatch</span>
+            <span class="etag">ELK Stack</span>
+            <span class="etag">Bamboo</span>
+            <span class="etag">IAM</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<!--  ACHIEVEMENTS                             -->
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<section id="achievements">
+  <div class="section-wrap">
+    <div class="achieve-bg-text">IMPACT</div>
+    <div class="section-header reveal">
+      <div class="section-num">04</div>
+      <h2 class="section-title">Key<br /><span class="accent">Impact</span></h2>
+    </div>
+    <div class="achieve-grid">
+
+      <div class="achieve-card">
+        <div class="achieve-icon">⚡</div>
+        <div class="achieve-num">~30%</div>
+        <div class="achieve-title">Deployment Cycle Reduction</div>
+        <div class="achieve-desc">Cut release cycle time through CI/CD standardization, pipeline optimization, and intelligent automation across teams.</div>
+      </div>
+
+      <div class="achieve-card">
+        <div class="achieve-icon">👥</div>
+        <div class="achieve-num" data-count="10">0</div>
+        <div class="achieve-title">Teams Enabled</div>
+        <div class="achieve-desc">Led and mentored DevOps engineers supporting 10+ platform and product teams, driving measurable DevOps maturity.</div>
+      </div>
+
+      <div class="achieve-card">
+        <div class="achieve-icon">🔄</div>
+        <div class="achieve-num">0ms</div>
+        <div class="achieve-title">Downtime Deployments</div>
+        <div class="achieve-desc">Enabled near-zero-downtime deployments through Blue-Green strategies and robust pipeline release controls.</div>
+      </div>
+
+      <div class="achieve-card">
+        <div class="achieve-icon">🚀</div>
+        <div class="achieve-num">J→G</div>
+        <div class="achieve-title">Jenkins → GitLab Migration</div>
+        <div class="achieve-desc">Led enterprise-wide CI/CD platform migration, significantly improving scalability and developer experience organization-wide.</div>
+      </div>
+
+      <div class="achieve-card">
+        <div class="achieve-icon">🏗️</div>
+        <div class="achieve-num">IDP</div>
+        <div class="achieve-title">Internal Developer Platform</div>
+        <div class="achieve-desc">Designed and scaled reusable DevOps frameworks and GitLab pipeline templates for seamless multi-team onboarding.</div>
+      </div>
+
+      <div class="achieve-card">
+        <div class="achieve-icon">🏆</div>
+        <div class="achieve-num" data-count="3">0</div>
+        <div class="achieve-title">Cloud Certifications</div>
+        <div class="achieve-desc">AWS Solutions Architect · Certified Kubernetes Administrator (CKA) · Terraform Associate — validating deep multi-cloud expertise.</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<!--  CONTACT                                  -->
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<section id="contact">
+  <div class="section-wrap">
+    <div class="contact-layout">
+
+      <div class="reveal-left">
+        <div class="section-num">05</div>
+        <h2 class="contact-big">Let's<br /><span>Build</span><br />Together.</h2>
+        <p class="contact-sub">
+          Open to senior DevOps, Platform Engineering, and Cloud Architecture opportunities.
+          Also available for consulting, architecture reviews, and team mentoring engagements.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:aditya307kumar@gmail.com" class="contact-link">
+            <span class="contact-link-icon">📧</span>
+            <span class="contact-link-text">
+              <div class="contact-link-label">Email</div>
+              <div class="contact-link-val">aditya307kumar@gmail.com</div>
+            </span>
+            <span class="contact-link-arrow">→</span>
+          </a>
+          <a href="https://linkedin.com/in/aditya-20" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-icon">🔗</span>
+            <span class="contact-link-text">
+              <div class="contact-link-label">LinkedIn</div>
+              <div class="contact-link-val">linkedin.com/in/aditya-20</div>
+            </span>
+            <span class="contact-link-arrow">→</span>
+          </a>
+          <a href="tel:+918013471384" class="contact-link">
+            <span class="contact-link-icon">📱</span>
+            <span class="contact-link-text">
+              <div class="contact-link-label">Phone</div>
+              <div class="contact-link-val">+91 80134 71384</div>
+            </span>
+            <span class="contact-link-arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-form-wrap reveal-right">
+        <div class="form-title">// Send a message</div>
+        <form id="contact-form">
+          <div class="form-group">
+            <label class="form-label">Your Name</label>
+            <input type="text" class="form-input" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email Address</label>
+            <input type="email" class="form-input" placeholder="john@company.com" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Message</label>
+            <textarea class="form-textarea" placeholder="Tell me about the opportunity..." required></textarea>
+          </div>
+          <button type="submit" class="btn-submit"><span>Send Message →</span></button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ░░ FOOTER ░░ -->
+<footer>
+  <div class="footer-left">
+    © 2025 <strong>Aditya Kumar</strong> · DevOps Architect · Bengaluru, India
+  </div>
+  <div class="footer-right">
+    <a href="https://linkedin.com/in/aditya-20" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="mailto:aditya307kumar@gmail.com">Email</a>
+    <span>B.Tech — Heritage Institute of Technology, Kolkata</span>
+  </div>
+</footer>
+
+<!-- ░░ SCRIPTS ░░ -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
